@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>서울 커피 지도</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="서울시 자치구별 커피 지도를 확인해보세요.">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 40px;
+      background-color: #f9f6f3;
+    }
+    h1 {
+      text-align: center;
+      color: #6f4e37;
+      font-size: 2em;
+    }
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+      margin-top: 40px;
+    }
+    button {
+      padding: 10px 16px;
+      font-size: 14px;
+      border: none;
+      border-radius: 6px;
+      background-color: #6f4e37;
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+    }
+    button:hover {
+      background-color: #5a3c2a;
+    }
+    @media (max-width: 600px) {
+      button {
+        width: 100%;
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>☕ 서울 커피 지도</h1>
+
+  <div class="buttons" id="districtButtons"></div>
+
+  <script>
+    const districts = {
+      "강남구": "gangnam",
+      "강동구": "gangdong",
+      "강북구": "gangbuk",
+      "강서구": "gangseo",
+      "관악구": "gwanak",
+      "광진구": "gwangjin",
+      "구로구": "guro",
+      "금천구": "geumcheon",
+      "노원구": "nowon",
+      "도봉구": "dobong",
+      "동대문구": "dongdaemun",
+      "동작구": "dongjak",
+      "마포구": "mapo",
+      "서대문구": "seodaemun",
+      "서초구": "seocho",
+      "성동구": "seongdong",
+      "성북구": "seongbuk",
+      "송파구": "songpa",
+      "양천구": "yangcheon",
+      "영등포구": "yeongdeungpo",
+      "용산구": "yongsan",
+      "은평구": "eunpyeong",
+      "종로구": "jongno",
+      "중구": "jung",
+      "중랑구": "jungnang"
+    };
+
+    const container = document.getElementById("districtButtons");
+
+    for (const [kor, eng] of Object.entries(districts)) {
+      const btn = document.createElement("button");
+      btn.innerText = kor;
+      btn.setAttribute("aria-label", `${kor} 커피 지도 보기`);
+      const fileName = `coffee_map_seoul_${eng}.html`;
+      btn.onclick = () => window.location.href = fileName;
+      container.appendChild(btn);
+    }
+  </script>
+</body>
+</html>

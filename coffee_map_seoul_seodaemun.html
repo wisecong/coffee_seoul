@@ -1,0 +1,2475 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4acb40f327a3035b3d094dc3b58659df {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_4acb40f327a3035b3d094dc3b58659df" ></div>
+        
+</body>
+<script>    
+    
+            var map_4acb40f327a3035b3d094dc3b58659df = L.map(
+                "map_4acb40f327a3035b3d094dc3b58659df",
+                {
+                    center: [37.5791, 126.9368],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13.5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8400b981a0d14306f689c2b8e118d556 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_4acb40f327a3035b3d094dc3b58659df);
+        
+    
+            var feature_group_8f4246f207854241232697ed345cfcb5 = L.featureGroup(
+                {}
+            ).addTo(map_4acb40f327a3035b3d094dc3b58659df);
+        
+    
+            var marker_ce2d831d812f2bb8fc48a07580d18d1e = L.marker(
+                [37.57507214454173, 126.91635993282007],
+                {}
+            ).addTo(feature_group_8f4246f207854241232697ed345cfcb5);
+        
+    
+            var icon_68be1744ede731f021c926f0908d53f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_ce2d831d812f2bb8fc48a07580d18d1e.setIcon(icon_68be1744ede731f021c926f0908d53f0);
+        
+    
+        var popup_a3c3a6cbeaa153d5f8576588e726d211 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc19b26c9141767d00569fd0db9ec9e0 = $(`<div id="html_bc19b26c9141767d00569fd0db9ec9e0" style="width: 100.0%; height: 100.0%;">스타벅스: 가재울뉴타운</div>`)[0];
+                popup_a3c3a6cbeaa153d5f8576588e726d211.setContent(html_bc19b26c9141767d00569fd0db9ec9e0);
+            
+        
+
+        marker_ce2d831d812f2bb8fc48a07580d18d1e.bindPopup(popup_a3c3a6cbeaa153d5f8576588e726d211)
+        ;
+
+        
+    
+    
+            marker_ce2d831d812f2bb8fc48a07580d18d1e.bindTooltip(
+                `<div>
+                     스타벅스: 가재울뉴타운
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cfc37a7d2da29fb0cc6d13e68ecc4d59 = L.marker(
+                [37.577386, 126.92081499999999],
+                {}
+            ).addTo(feature_group_8f4246f207854241232697ed345cfcb5);
+        
+    
+            var icon_f0a7c50cfd0d4f7cc030419d218ccec4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_cfc37a7d2da29fb0cc6d13e68ecc4d59.setIcon(icon_f0a7c50cfd0d4f7cc030419d218ccec4);
+        
+    
+        var popup_8dd2ba7a78de3082c75f6c8b1d79ab5f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_68dea6a004b736ab6ec83a46fb10422a = $(`<div id="html_68dea6a004b736ab6ec83a46fb10422a" style="width: 100.0%; height: 100.0%;">스타벅스: 남가좌사거리</div>`)[0];
+                popup_8dd2ba7a78de3082c75f6c8b1d79ab5f.setContent(html_68dea6a004b736ab6ec83a46fb10422a);
+            
+        
+
+        marker_cfc37a7d2da29fb0cc6d13e68ecc4d59.bindPopup(popup_8dd2ba7a78de3082c75f6c8b1d79ab5f)
+        ;
+
+        
+    
+    
+            marker_cfc37a7d2da29fb0cc6d13e68ecc4d59.bindTooltip(
+                `<div>
+                     스타벅스: 남가좌사거리
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_daa586aa596159c212b0246440f21691 = L.marker(
+                [37.55625738, 126.934653],
+                {}
+            ).addTo(feature_group_8f4246f207854241232697ed345cfcb5);
+        
+    
+            var icon_a90d20dc767f15925c5aeabe748a8b0e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_daa586aa596159c212b0246440f21691.setIcon(icon_a90d20dc767f15925c5aeabe748a8b0e);
+        
+    
+        var popup_85eb2ba988643646e56a4b3ec139aa95 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8f6b653433e52951247d5408d55f455 = $(`<div id="html_e8f6b653433e52951247d5408d55f455" style="width: 100.0%; height: 100.0%;">스타벅스: 신촌역</div>`)[0];
+                popup_85eb2ba988643646e56a4b3ec139aa95.setContent(html_e8f6b653433e52951247d5408d55f455);
+            
+        
+
+        marker_daa586aa596159c212b0246440f21691.bindPopup(popup_85eb2ba988643646e56a4b3ec139aa95)
+        ;
+
+        
+    
+    
+            marker_daa586aa596159c212b0246440f21691.bindTooltip(
+                `<div>
+                     스타벅스: 신촌역
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9fcbbbed9456a24381f5ec0f7bfd19f5 = L.marker(
+                [37.558245014814666, 126.95616914989029],
+                {}
+            ).addTo(feature_group_8f4246f207854241232697ed345cfcb5);
+        
+    
+            var icon_d9d019801223092395d589994fabf9d5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_9fcbbbed9456a24381f5ec0f7bfd19f5.setIcon(icon_d9d019801223092395d589994fabf9d5);
+        
+    
+        var popup_75586883c0c9301a5349d5b45908ebfe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1f5bd2412e9274ffb972a189b5c49a7c = $(`<div id="html_1f5bd2412e9274ffb972a189b5c49a7c" style="width: 100.0%; height: 100.0%;">스타벅스: 아현역</div>`)[0];
+                popup_75586883c0c9301a5349d5b45908ebfe.setContent(html_1f5bd2412e9274ffb972a189b5c49a7c);
+            
+        
+
+        marker_9fcbbbed9456a24381f5ec0f7bfd19f5.bindPopup(popup_75586883c0c9301a5349d5b45908ebfe)
+        ;
+
+        
+    
+    
+            marker_9fcbbbed9456a24381f5ec0f7bfd19f5.bindTooltip(
+                `<div>
+                     스타벅스: 아현역
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0d6a4d62d45360bee589edb8051f100f = L.marker(
+                [37.588658, 126.94386399999999],
+                {}
+            ).addTo(feature_group_8f4246f207854241232697ed345cfcb5);
+        
+    
+            var icon_4641412e4047cf734aa5881bb2759c9a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_0d6a4d62d45360bee589edb8051f100f.setIcon(icon_4641412e4047cf734aa5881bb2759c9a);
+        
+    
+        var popup_ea4b8e1aac5addb01b695513fa2755a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15ac34d098466dad6d11cf22818983ae = $(`<div id="html_15ac34d098466dad6d11cf22818983ae" style="width: 100.0%; height: 100.0%;">스타벅스: 홍제역</div>`)[0];
+                popup_ea4b8e1aac5addb01b695513fa2755a5.setContent(html_15ac34d098466dad6d11cf22818983ae);
+            
+        
+
+        marker_0d6a4d62d45360bee589edb8051f100f.bindPopup(popup_ea4b8e1aac5addb01b695513fa2755a5)
+        ;
+
+        
+    
+    
+            marker_0d6a4d62d45360bee589edb8051f100f.bindTooltip(
+                `<div>
+                     스타벅스: 홍제역
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7cdcebb58ee0b01ce67f0bb672ff9c55 = L.marker(
+                [37.562874457, 126.937440049],
+                {}
+            ).addTo(feature_group_8f4246f207854241232697ed345cfcb5);
+        
+    
+            var icon_f5e793cdf8eb9d06870254925dee5dc2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_7cdcebb58ee0b01ce67f0bb672ff9c55.setIcon(icon_f5e793cdf8eb9d06870254925dee5dc2);
+        
+    
+        var popup_56bbf9e872ce30ea6b9ac05896c7073c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f94df7837cebedde1ae58b58be9c7b1 = $(`<div id="html_2f94df7837cebedde1ae58b58be9c7b1" style="width: 100.0%; height: 100.0%;">스타벅스: 연세백양로</div>`)[0];
+                popup_56bbf9e872ce30ea6b9ac05896c7073c.setContent(html_2f94df7837cebedde1ae58b58be9c7b1);
+            
+        
+
+        marker_7cdcebb58ee0b01ce67f0bb672ff9c55.bindPopup(popup_56bbf9e872ce30ea6b9ac05896c7073c)
+        ;
+
+        
+    
+    
+            marker_7cdcebb58ee0b01ce67f0bb672ff9c55.bindTooltip(
+                `<div>
+                     스타벅스: 연세백양로
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_688aec25e36e327721adc59966698437 = L.marker(
+                [37.570214299999996, 126.9339777],
+                {}
+            ).addTo(feature_group_8f4246f207854241232697ed345cfcb5);
+        
+    
+            var icon_efac2da10e0658a56fb522da7f7be346 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_688aec25e36e327721adc59966698437.setIcon(icon_efac2da10e0658a56fb522da7f7be346);
+        
+    
+        var popup_9951884506abc962227c47bac1f9dcc1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4f6c1015e6e1a16384e4e278d96b95a = $(`<div id="html_f4f6c1015e6e1a16384e4e278d96b95a" style="width: 100.0%; height: 100.0%;">스타벅스: 연희DT</div>`)[0];
+                popup_9951884506abc962227c47bac1f9dcc1.setContent(html_f4f6c1015e6e1a16384e4e278d96b95a);
+            
+        
+
+        marker_688aec25e36e327721adc59966698437.bindPopup(popup_9951884506abc962227c47bac1f9dcc1)
+        ;
+
+        
+    
+    
+            marker_688aec25e36e327721adc59966698437.bindTooltip(
+                `<div>
+                     스타벅스: 연희DT
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ec8e315d9f82dfbe30c4c30769a916e9 = L.marker(
+                [37.56367995, 126.9646045],
+                {}
+            ).addTo(feature_group_8f4246f207854241232697ed345cfcb5);
+        
+    
+            var icon_ca371fa1ab36439290a6fb767082fdb0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_ec8e315d9f82dfbe30c4c30769a916e9.setIcon(icon_ca371fa1ab36439290a6fb767082fdb0);
+        
+    
+        var popup_80595ab756f01ec756f53624b0d321a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eba2072f2b476a98ad87f4377ca9bbdb = $(`<div id="html_eba2072f2b476a98ad87f4377ca9bbdb" style="width: 100.0%; height: 100.0%;">스타벅스: 경기대</div>`)[0];
+                popup_80595ab756f01ec756f53624b0d321a1.setContent(html_eba2072f2b476a98ad87f4377ca9bbdb);
+            
+        
+
+        marker_ec8e315d9f82dfbe30c4c30769a916e9.bindPopup(popup_80595ab756f01ec756f53624b0d321a1)
+        ;
+
+        
+    
+    
+            marker_ec8e315d9f82dfbe30c4c30769a916e9.bindTooltip(
+                `<div>
+                     스타벅스: 경기대
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fb72015a25f5b3605300f5f9175783be = L.marker(
+                [37.55650646625964, 126.93707189576915],
+                {}
+            ).addTo(feature_group_8f4246f207854241232697ed345cfcb5);
+        
+    
+            var icon_79e9dc46ab7222e24d0c7696407fe147 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_fb72015a25f5b3605300f5f9175783be.setIcon(icon_79e9dc46ab7222e24d0c7696407fe147);
+        
+    
+        var popup_f402b39c2be985fdb42676572870cfcc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_27bd676705889cd6e0d4fbfbab48c204 = $(`<div id="html_27bd676705889cd6e0d4fbfbab48c204" style="width: 100.0%; height: 100.0%;">스타벅스: 신촌</div>`)[0];
+                popup_f402b39c2be985fdb42676572870cfcc.setContent(html_27bd676705889cd6e0d4fbfbab48c204);
+            
+        
+
+        marker_fb72015a25f5b3605300f5f9175783be.bindPopup(popup_f402b39c2be985fdb42676572870cfcc)
+        ;
+
+        
+    
+    
+            marker_fb72015a25f5b3605300f5f9175783be.bindTooltip(
+                `<div>
+                     스타벅스: 신촌
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e8263d628b0ca781ac40e0ab2dddec81 = L.marker(
+                [37.55848315, 126.94596429999999],
+                {}
+            ).addTo(feature_group_8f4246f207854241232697ed345cfcb5);
+        
+    
+            var icon_93f24447d363b971f3f6fd86ea13cbe0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_e8263d628b0ca781ac40e0ab2dddec81.setIcon(icon_93f24447d363b971f3f6fd86ea13cbe0);
+        
+    
+        var popup_26d36e72e38a78a14e114ea31e320499 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2453b094554504c894a8cea7b10917ac = $(`<div id="html_2453b094554504c894a8cea7b10917ac" style="width: 100.0%; height: 100.0%;">스타벅스: 이대</div>`)[0];
+                popup_26d36e72e38a78a14e114ea31e320499.setContent(html_2453b094554504c894a8cea7b10917ac);
+            
+        
+
+        marker_e8263d628b0ca781ac40e0ab2dddec81.bindPopup(popup_26d36e72e38a78a14e114ea31e320499)
+        ;
+
+        
+    
+    
+            marker_e8263d628b0ca781ac40e0ab2dddec81.bindTooltip(
+                `<div>
+                     스타벅스: 이대
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_098e0ebb9bed2907b301e1824a25706e = L.marker(
+                [37.561468543000004, 126.94111965399999],
+                {}
+            ).addTo(feature_group_8f4246f207854241232697ed345cfcb5);
+        
+    
+            var icon_b4ca917a72d790ca0707deb773e1171d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_098e0ebb9bed2907b301e1824a25706e.setIcon(icon_b4ca917a72d790ca0707deb773e1171d);
+        
+    
+        var popup_c179669a31bad3c65c1ac63758517f01 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_041187c1099430596c678fb16808300e = $(`<div id="html_041187c1099430596c678fb16808300e" style="width: 100.0%; height: 100.0%;">스타벅스: 연세종합관</div>`)[0];
+                popup_c179669a31bad3c65c1ac63758517f01.setContent(html_041187c1099430596c678fb16808300e);
+            
+        
+
+        marker_098e0ebb9bed2907b301e1824a25706e.bindPopup(popup_c179669a31bad3c65c1ac63758517f01)
+        ;
+
+        
+    
+    
+            marker_098e0ebb9bed2907b301e1824a25706e.bindTooltip(
+                `<div>
+                     스타벅스: 연세종합관
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8aa573f51970080da9757ec0b8c62e76 = L.marker(
+                [37.561631, 126.94735],
+                {}
+            ).addTo(feature_group_8f4246f207854241232697ed345cfcb5);
+        
+    
+            var icon_7604c6376ec26227e4f0504e01e1ae9e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_8aa573f51970080da9757ec0b8c62e76.setIcon(icon_7604c6376ec26227e4f0504e01e1ae9e);
+        
+    
+        var popup_702cc833710bf056e24edee40cd249dc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c83c93a2d47efea99b36509fd8df8dd = $(`<div id="html_2c83c93a2d47efea99b36509fd8df8dd" style="width: 100.0%; height: 100.0%;">스타벅스: 이대ECC</div>`)[0];
+                popup_702cc833710bf056e24edee40cd249dc.setContent(html_2c83c93a2d47efea99b36509fd8df8dd);
+            
+        
+
+        marker_8aa573f51970080da9757ec0b8c62e76.bindPopup(popup_702cc833710bf056e24edee40cd249dc)
+        ;
+
+        
+    
+    
+            marker_8aa573f51970080da9757ec0b8c62e76.bindTooltip(
+                `<div>
+                     스타벅스: 이대ECC
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9cc3075d3da45fb4fc9576401279f405 = L.marker(
+                [37.558706, 126.936727],
+                {}
+            ).addTo(feature_group_8f4246f207854241232697ed345cfcb5);
+        
+    
+            var icon_73f13a0410b5a7bb408ccd2d99ba1f6d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_9cc3075d3da45fb4fc9576401279f405.setIcon(icon_73f13a0410b5a7bb408ccd2d99ba1f6d);
+        
+    
+        var popup_f5572dea2aacb347555a2e36504941ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_61ba4df2358deeb6c1d21f115515b164 = $(`<div id="html_61ba4df2358deeb6c1d21f115515b164" style="width: 100.0%; height: 100.0%;">스타벅스: 연대</div>`)[0];
+                popup_f5572dea2aacb347555a2e36504941ca.setContent(html_61ba4df2358deeb6c1d21f115515b164);
+            
+        
+
+        marker_9cc3075d3da45fb4fc9576401279f405.bindPopup(popup_f5572dea2aacb347555a2e36504941ca)
+        ;
+
+        
+    
+    
+            marker_9cc3075d3da45fb4fc9576401279f405.bindTooltip(
+                `<div>
+                     스타벅스: 연대
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bfa8b572219d3b4c69af28b49cc3241d = L.marker(
+                [37.561370000000004, 126.963219],
+                {}
+            ).addTo(feature_group_8f4246f207854241232697ed345cfcb5);
+        
+    
+            var icon_f8b3f874867294f3d9d45522f724e91b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_bfa8b572219d3b4c69af28b49cc3241d.setIcon(icon_f8b3f874867294f3d9d45522f724e91b);
+        
+    
+        var popup_f7e60f32e3b18653264fc56b210ff809 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c1497c9d175ae15db21237a0a6c91f9 = $(`<div id="html_5c1497c9d175ae15db21237a0a6c91f9" style="width: 100.0%; height: 100.0%;">스타벅스: 충정로역</div>`)[0];
+                popup_f7e60f32e3b18653264fc56b210ff809.setContent(html_5c1497c9d175ae15db21237a0a6c91f9);
+            
+        
+
+        marker_bfa8b572219d3b4c69af28b49cc3241d.bindPopup(popup_f7e60f32e3b18653264fc56b210ff809)
+        ;
+
+        
+    
+    
+            marker_bfa8b572219d3b4c69af28b49cc3241d.bindTooltip(
+                `<div>
+                     스타벅스: 충정로역
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1a9b200ca1145c43cf835a6c7564ff42 = L.marker(
+                [37.56648507, 126.9463253],
+                {}
+            ).addTo(feature_group_8f4246f207854241232697ed345cfcb5);
+        
+    
+            var icon_89bb4e73f192ff24af8503d19fd00168 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_1a9b200ca1145c43cf835a6c7564ff42.setIcon(icon_89bb4e73f192ff24af8503d19fd00168);
+        
+    
+        var popup_5a01d3de359538df2d61926530b2d44c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a27782c3ed664c5a1a1498f0f4c7b68 = $(`<div id="html_8a27782c3ed664c5a1a1498f0f4c7b68" style="width: 100.0%; height: 100.0%;">스타벅스: 연대동문</div>`)[0];
+                popup_5a01d3de359538df2d61926530b2d44c.setContent(html_8a27782c3ed664c5a1a1498f0f4c7b68);
+            
+        
+
+        marker_1a9b200ca1145c43cf835a6c7564ff42.bindPopup(popup_5a01d3de359538df2d61926530b2d44c)
+        ;
+
+        
+    
+    
+            marker_1a9b200ca1145c43cf835a6c7564ff42.bindTooltip(
+                `<div>
+                     스타벅스: 연대동문
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e2cb8d77c497c6c12a13c0deb194909c = L.marker(
+                [37.557768434, 126.93815450299999],
+                {}
+            ).addTo(feature_group_8f4246f207854241232697ed345cfcb5);
+        
+    
+            var icon_94b0931c11a83397e9c765eba3a8b337 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_e2cb8d77c497c6c12a13c0deb194909c.setIcon(icon_94b0931c11a83397e9c765eba3a8b337);
+        
+    
+        var popup_3a27666565a3ba6dc6a15a8632688934 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_351fae97209d4cf821b749a0946ca1a8 = $(`<div id="html_351fae97209d4cf821b749a0946ca1a8" style="width: 100.0%; height: 100.0%;">스타벅스: 신촌명물거리</div>`)[0];
+                popup_3a27666565a3ba6dc6a15a8632688934.setContent(html_351fae97209d4cf821b749a0946ca1a8);
+            
+        
+
+        marker_e2cb8d77c497c6c12a13c0deb194909c.bindPopup(popup_3a27666565a3ba6dc6a15a8632688934)
+        ;
+
+        
+    
+    
+            marker_e2cb8d77c497c6c12a13c0deb194909c.bindTooltip(
+                `<div>
+                     스타벅스: 신촌명물거리
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5006229f8c6b5c0254bb264cf6778415 = L.marker(
+                [37.559869, 126.96411],
+                {}
+            ).addTo(feature_group_8f4246f207854241232697ed345cfcb5);
+        
+    
+            var icon_37704f915baa7d1b8520cc5fa038ef3c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_5006229f8c6b5c0254bb264cf6778415.setIcon(icon_37704f915baa7d1b8520cc5fa038ef3c);
+        
+    
+        var popup_db98f9a940fb3cc170a69ea4b903e5d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9f9716d5a658e48c8f6fb6f36287713 = $(`<div id="html_a9f9716d5a658e48c8f6fb6f36287713" style="width: 100.0%; height: 100.0%;">스타벅스: 충정타워</div>`)[0];
+                popup_db98f9a940fb3cc170a69ea4b903e5d5.setContent(html_a9f9716d5a658e48c8f6fb6f36287713);
+            
+        
+
+        marker_5006229f8c6b5c0254bb264cf6778415.bindPopup(popup_db98f9a940fb3cc170a69ea4b903e5d5)
+        ;
+
+        
+    
+    
+            marker_5006229f8c6b5c0254bb264cf6778415.bindTooltip(
+                `<div>
+                     스타벅스: 충정타워
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5f6c1f27739955ecd4880caac76f3669 = L.marker(
+                [37.57904089840896, 126.92278859674573],
+                {}
+            ).addTo(feature_group_8f4246f207854241232697ed345cfcb5);
+        
+    
+            var icon_efb56372ed6fdc1be8a0e627e207a57a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_5f6c1f27739955ecd4880caac76f3669.setIcon(icon_efb56372ed6fdc1be8a0e627e207a57a);
+        
+    
+        var popup_f8bb9e10344fdcde46989e6c191e2b89 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f4845d1cf5d163ddf21c25ff07caf8d = $(`<div id="html_0f4845d1cf5d163ddf21c25ff07caf8d" style="width: 100.0%; height: 100.0%;">스타벅스: 명지대</div>`)[0];
+                popup_f8bb9e10344fdcde46989e6c191e2b89.setContent(html_0f4845d1cf5d163ddf21c25ff07caf8d);
+            
+        
+
+        marker_5f6c1f27739955ecd4880caac76f3669.bindPopup(popup_f8bb9e10344fdcde46989e6c191e2b89)
+        ;
+
+        
+    
+    
+            marker_5f6c1f27739955ecd4880caac76f3669.bindTooltip(
+                `<div>
+                     스타벅스: 명지대
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ef53e64c8fea5f9b8815bd313f026173 = L.marker(
+                [37.55702459539767, 126.94630659955031],
+                {}
+            ).addTo(feature_group_8f4246f207854241232697ed345cfcb5);
+        
+    
+            var icon_6205a223a98ce91277790ea00ab42ccf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_ef53e64c8fea5f9b8815bd313f026173.setIcon(icon_6205a223a98ce91277790ea00ab42ccf);
+        
+    
+        var popup_cbb93de2da3db0138eebcaa8bc1b8d15 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f1a787fcddfc3da09cf9fdd6f85a4b97 = $(`<div id="html_f1a787fcddfc3da09cf9fdd6f85a4b97" style="width: 100.0%; height: 100.0%;">스타벅스: 이대역</div>`)[0];
+                popup_cbb93de2da3db0138eebcaa8bc1b8d15.setContent(html_f1a787fcddfc3da09cf9fdd6f85a4b97);
+            
+        
+
+        marker_ef53e64c8fea5f9b8815bd313f026173.bindPopup(popup_cbb93de2da3db0138eebcaa8bc1b8d15)
+        ;
+
+        
+    
+    
+            marker_ef53e64c8fea5f9b8815bd313f026173.bindTooltip(
+                `<div>
+                     스타벅스: 이대역
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0aa34e159be97abd502942cd99e91dae = L.marker(
+                [37.555808834251316, 126.93828627236181],
+                {}
+            ).addTo(feature_group_8f4246f207854241232697ed345cfcb5);
+        
+    
+            var icon_c8b3f04509062e7e7c61a480ddff3b85 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_0aa34e159be97abd502942cd99e91dae.setIcon(icon_c8b3f04509062e7e7c61a480ddff3b85);
+        
+    
+        var popup_a78b573e445b01f9f3ec120d5f2bd9c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5470037f2ba3bfe3ab9074fb95436a5a = $(`<div id="html_5470037f2ba3bfe3ab9074fb95436a5a" style="width: 100.0%; height: 100.0%;">스타벅스: 신촌로</div>`)[0];
+                popup_a78b573e445b01f9f3ec120d5f2bd9c8.setContent(html_5470037f2ba3bfe3ab9074fb95436a5a);
+            
+        
+
+        marker_0aa34e159be97abd502942cd99e91dae.bindPopup(popup_a78b573e445b01f9f3ec120d5f2bd9c8)
+        ;
+
+        
+    
+    
+            marker_0aa34e159be97abd502942cd99e91dae.bindTooltip(
+                `<div>
+                     스타벅스: 신촌로
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6f88a6e4e9cfaf60b2e70db109494115 = L.marker(
+                [37.580758, 126.911478],
+                {}
+            ).addTo(feature_group_8f4246f207854241232697ed345cfcb5);
+        
+    
+            var icon_00ee23ff687b039cc992f5bff4666eb0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_6f88a6e4e9cfaf60b2e70db109494115.setIcon(icon_00ee23ff687b039cc992f5bff4666eb0);
+        
+    
+        var popup_f3568c91b2cedea9a718054cc96ca8aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_07b4211b0867bdd87c47fb881be2e5b1 = $(`<div id="html_07b4211b0867bdd87c47fb881be2e5b1" style="width: 100.0%; height: 100.0%;">스타벅스: 북가좌DT</div>`)[0];
+                popup_f3568c91b2cedea9a718054cc96ca8aa.setContent(html_07b4211b0867bdd87c47fb881be2e5b1);
+            
+        
+
+        marker_6f88a6e4e9cfaf60b2e70db109494115.bindPopup(popup_f3568c91b2cedea9a718054cc96ca8aa)
+        ;
+
+        
+    
+    
+            marker_6f88a6e4e9cfaf60b2e70db109494115.bindTooltip(
+                `<div>
+                     스타벅스: 북가좌DT
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c6bda3d34e2b5800c11e0585316c146a = L.marker(
+                [37.5654550624029, 126.929552728948],
+                {}
+            ).addTo(feature_group_8f4246f207854241232697ed345cfcb5);
+        
+    
+            var icon_ca1ec6b08de0b3bf1f48e936961e3bd9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_c6bda3d34e2b5800c11e0585316c146a.setIcon(icon_ca1ec6b08de0b3bf1f48e936961e3bd9);
+        
+    
+        var popup_24d48ccf84f15511f1f95b5f71d4cc60 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f23d354190ee3071cf809743262bf7cd = $(`<div id="html_f23d354190ee3071cf809743262bf7cd" style="width: 100.0%; height: 100.0%;">스타벅스: 연희동</div>`)[0];
+                popup_24d48ccf84f15511f1f95b5f71d4cc60.setContent(html_f23d354190ee3071cf809743262bf7cd);
+            
+        
+
+        marker_c6bda3d34e2b5800c11e0585316c146a.bindPopup(popup_24d48ccf84f15511f1f95b5f71d4cc60)
+        ;
+
+        
+    
+    
+            marker_c6bda3d34e2b5800c11e0585316c146a.bindTooltip(
+                `<div>
+                     스타벅스: 연희동
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d60622f7b84ee0885ae0cb27fcdda5c1 = L.marker(
+                [37.555924580803755, 126.93569449086849],
+                {}
+            ).addTo(feature_group_8f4246f207854241232697ed345cfcb5);
+        
+    
+            var icon_9407bf36378bc5e0d19078586d659ae6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_d60622f7b84ee0885ae0cb27fcdda5c1.setIcon(icon_9407bf36378bc5e0d19078586d659ae6);
+        
+    
+        var popup_0fcb7ecacff1d432d29ec684400bdd0b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b3fe49794932d5d19c5d0ffa2475f99 = $(`<div id="html_9b3fe49794932d5d19c5d0ffa2475f99" style="width: 100.0%; height: 100.0%;">스타벅스: 현대신촌</div>`)[0];
+                popup_0fcb7ecacff1d432d29ec684400bdd0b.setContent(html_9b3fe49794932d5d19c5d0ffa2475f99);
+            
+        
+
+        marker_d60622f7b84ee0885ae0cb27fcdda5c1.bindPopup(popup_0fcb7ecacff1d432d29ec684400bdd0b)
+        ;
+
+        
+    
+    
+            marker_d60622f7b84ee0885ae0cb27fcdda5c1.bindTooltip(
+                `<div>
+                     스타벅스: 현대신촌
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_d88c5796007ff5e1ae31433d04553e0a = L.featureGroup(
+                {}
+            ).addTo(map_4acb40f327a3035b3d094dc3b58659df);
+        
+    
+            var marker_eca499827f2a08c2cc2f82f1682aa7b6 = L.marker(
+                [37.5744019902031, 126.91790781416701],
+                {}
+            ).addTo(feature_group_d88c5796007ff5e1ae31433d04553e0a);
+        
+    
+            var icon_bf248cfe78fad85b297948e27c9c1f2b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_eca499827f2a08c2cc2f82f1682aa7b6.setIcon(icon_bf248cfe78fad85b297948e27c9c1f2b);
+        
+    
+        var popup_ee4c9c34e0e1c8e7bf86f2cea3d06519 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7fd3471d6c7e711821118db4e8b1a6ea = $(`<div id="html_7fd3471d6c7e711821118db4e8b1a6ea" style="width: 100.0%; height: 100.0%;">이디야: 가재울중앙점</div>`)[0];
+                popup_ee4c9c34e0e1c8e7bf86f2cea3d06519.setContent(html_7fd3471d6c7e711821118db4e8b1a6ea);
+            
+        
+
+        marker_eca499827f2a08c2cc2f82f1682aa7b6.bindPopup(popup_ee4c9c34e0e1c8e7bf86f2cea3d06519)
+        ;
+
+        
+    
+    
+            marker_eca499827f2a08c2cc2f82f1682aa7b6.bindTooltip(
+                `<div>
+                     이디야: 가재울중앙점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f5732859a1dadd26a0d53033877f7af6 = L.marker(
+                [37.5793644567594, 126.92391639553301],
+                {}
+            ).addTo(feature_group_d88c5796007ff5e1ae31433d04553e0a);
+        
+    
+            var icon_0a21d60715fb67234c537bb6c13e47af = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_f5732859a1dadd26a0d53033877f7af6.setIcon(icon_0a21d60715fb67234c537bb6c13e47af);
+        
+    
+        var popup_5b59c0e1e390f81f5a190cba852ffaf2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_70849ce04a2cab44b518c9df43faa5d1 = $(`<div id="html_70849ce04a2cab44b518c9df43faa5d1" style="width: 100.0%; height: 100.0%;">이디야: 명지대점</div>`)[0];
+                popup_5b59c0e1e390f81f5a190cba852ffaf2.setContent(html_70849ce04a2cab44b518c9df43faa5d1);
+            
+        
+
+        marker_f5732859a1dadd26a0d53033877f7af6.bindPopup(popup_5b59c0e1e390f81f5a190cba852ffaf2)
+        ;
+
+        
+    
+    
+            marker_f5732859a1dadd26a0d53033877f7af6.bindTooltip(
+                `<div>
+                     이디야: 명지대점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9711f65fecc87ff5ff6d5b7ac56e7fc4 = L.marker(
+                [37.5845714538091, 126.92415926898],
+                {}
+            ).addTo(feature_group_d88c5796007ff5e1ae31433d04553e0a);
+        
+    
+            var icon_7427b4ac4c9181d8736e60a4cb703e3b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_9711f65fecc87ff5ff6d5b7ac56e7fc4.setIcon(icon_7427b4ac4c9181d8736e60a4cb703e3b);
+        
+    
+        var popup_b1bf6e912b045e873131215c9230a81d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a0a02b6f9913b98d847203054514b097 = $(`<div id="html_a0a02b6f9913b98d847203054514b097" style="width: 100.0%; height: 100.0%;">이디야: 명지전문대점</div>`)[0];
+                popup_b1bf6e912b045e873131215c9230a81d.setContent(html_a0a02b6f9913b98d847203054514b097);
+            
+        
+
+        marker_9711f65fecc87ff5ff6d5b7ac56e7fc4.bindPopup(popup_b1bf6e912b045e873131215c9230a81d)
+        ;
+
+        
+    
+    
+            marker_9711f65fecc87ff5ff6d5b7ac56e7fc4.bindTooltip(
+                `<div>
+                     이디야: 명지전문대점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_824fa2039b3720546291c99b922bc1f9 = L.marker(
+                [37.583455889297596, 126.911536848426],
+                {}
+            ).addTo(feature_group_d88c5796007ff5e1ae31433d04553e0a);
+        
+    
+            var icon_a9420ceb9fc695d7931f8a1519884312 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_824fa2039b3720546291c99b922bc1f9.setIcon(icon_a9420ceb9fc695d7931f8a1519884312);
+        
+    
+        var popup_94255913af694b7ba9e95cb42d7aa1fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a28a1b1ca251dc06df3a34cfb0d28d7 = $(`<div id="html_9a28a1b1ca251dc06df3a34cfb0d28d7" style="width: 100.0%; height: 100.0%;">이디야: 북가좌동점</div>`)[0];
+                popup_94255913af694b7ba9e95cb42d7aa1fd.setContent(html_9a28a1b1ca251dc06df3a34cfb0d28d7);
+            
+        
+
+        marker_824fa2039b3720546291c99b922bc1f9.bindPopup(popup_94255913af694b7ba9e95cb42d7aa1fd)
+        ;
+
+        
+    
+    
+            marker_824fa2039b3720546291c99b922bc1f9.bindTooltip(
+                `<div>
+                     이디야: 북가좌동점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_89f9c4279eb9c33a390a9bcb743288f5 = L.marker(
+                [37.5782396270709, 126.93568571991001],
+                {}
+            ).addTo(feature_group_d88c5796007ff5e1ae31433d04553e0a);
+        
+    
+            var icon_1aa5a7e160e0546ebebf4d98e232323e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_89f9c4279eb9c33a390a9bcb743288f5.setIcon(icon_1aa5a7e160e0546ebebf4d98e232323e);
+        
+    
+        var popup_d196a20861e051a27c15090e67bafde8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e16a7c3923b350d309cab2aaa076667 = $(`<div id="html_7e16a7c3923b350d309cab2aaa076667" style="width: 100.0%; height: 100.0%;">이디야: 서대문구청점</div>`)[0];
+                popup_d196a20861e051a27c15090e67bafde8.setContent(html_7e16a7c3923b350d309cab2aaa076667);
+            
+        
+
+        marker_89f9c4279eb9c33a390a9bcb743288f5.bindPopup(popup_d196a20861e051a27c15090e67bafde8)
+        ;
+
+        
+    
+    
+            marker_89f9c4279eb9c33a390a9bcb743288f5.bindTooltip(
+                `<div>
+                     이디야: 서대문구청점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1c4ad1dd2e56fa5d04ea313494ee2d6a = L.marker(
+                [37.5667821636119, 126.961963463309],
+                {}
+            ).addTo(feature_group_d88c5796007ff5e1ae31433d04553e0a);
+        
+    
+            var icon_1547df4b3dca4c042a0ad856f6d0412e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_1c4ad1dd2e56fa5d04ea313494ee2d6a.setIcon(icon_1547df4b3dca4c042a0ad856f6d0412e);
+        
+    
+        var popup_927b27dfdac196b6ecdc776caf6593c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ca236a7f815e92ddecdf03924faa2a83 = $(`<div id="html_ca236a7f815e92ddecdf03924faa2a83" style="width: 100.0%; height: 100.0%;">이디야: 서대문점</div>`)[0];
+                popup_927b27dfdac196b6ecdc776caf6593c8.setContent(html_ca236a7f815e92ddecdf03924faa2a83);
+            
+        
+
+        marker_1c4ad1dd2e56fa5d04ea313494ee2d6a.bindPopup(popup_927b27dfdac196b6ecdc776caf6593c8)
+        ;
+
+        
+    
+    
+            marker_1c4ad1dd2e56fa5d04ea313494ee2d6a.bindTooltip(
+                `<div>
+                     이디야: 서대문점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_29b288e1c1b3731cbb5411f6f0cebb3f = L.marker(
+                [37.596703509963206, 126.94880303274999],
+                {}
+            ).addTo(feature_group_d88c5796007ff5e1ae31433d04553e0a);
+        
+    
+            var icon_1e006992064cb29fc96adc71684ec6ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_29b288e1c1b3731cbb5411f6f0cebb3f.setIcon(icon_1e006992064cb29fc96adc71684ec6ae);
+        
+    
+        var popup_faf7539e6e82a7d900acbf7b4466f258 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6666d7556623c2251890c5705d24acd1 = $(`<div id="html_6666d7556623c2251890c5705d24acd1" style="width: 100.0%; height: 100.0%;">이디야: 서울간호대점</div>`)[0];
+                popup_faf7539e6e82a7d900acbf7b4466f258.setContent(html_6666d7556623c2251890c5705d24acd1);
+            
+        
+
+        marker_29b288e1c1b3731cbb5411f6f0cebb3f.bindPopup(popup_faf7539e6e82a7d900acbf7b4466f258)
+        ;
+
+        
+    
+    
+            marker_29b288e1c1b3731cbb5411f6f0cebb3f.bindTooltip(
+                `<div>
+                     이디야: 서울간호대점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2d1512d78abab0d963427aeaba7c0ba9 = L.marker(
+                [37.558976103967, 126.94145956713899],
+                {}
+            ).addTo(feature_group_d88c5796007ff5e1ae31433d04553e0a);
+        
+    
+            var icon_c760c9f657106e6e7118d108e0ef3018 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_2d1512d78abab0d963427aeaba7c0ba9.setIcon(icon_c760c9f657106e6e7118d108e0ef3018);
+        
+    
+        var popup_cbb618dd5409c6f3beb794ca0c816af2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e84a3d864db2ca86db12b3ee7864abf = $(`<div id="html_0e84a3d864db2ca86db12b3ee7864abf" style="width: 100.0%; height: 100.0%;">이디야: 신촌기차역점</div>`)[0];
+                popup_cbb618dd5409c6f3beb794ca0c816af2.setContent(html_0e84a3d864db2ca86db12b3ee7864abf);
+            
+        
+
+        marker_2d1512d78abab0d963427aeaba7c0ba9.bindPopup(popup_cbb618dd5409c6f3beb794ca0c816af2)
+        ;
+
+        
+    
+    
+            marker_2d1512d78abab0d963427aeaba7c0ba9.bindTooltip(
+                `<div>
+                     이디야: 신촌기차역점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_08cee536ce42c8b966c1dfc3470dce4c = L.marker(
+                [37.556511183499396, 126.936458823099],
+                {}
+            ).addTo(feature_group_d88c5796007ff5e1ae31433d04553e0a);
+        
+    
+            var icon_1fc058763eddd9f5bb0d858bffadeef0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_08cee536ce42c8b966c1dfc3470dce4c.setIcon(icon_1fc058763eddd9f5bb0d858bffadeef0);
+        
+    
+        var popup_be2d8c4db3b33797c97ca0a2dcfb61fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e54f334d8a1da71c80bfb5ebf01026d2 = $(`<div id="html_e54f334d8a1da71c80bfb5ebf01026d2" style="width: 100.0%; height: 100.0%;">이디야: 신촌역점</div>`)[0];
+                popup_be2d8c4db3b33797c97ca0a2dcfb61fb.setContent(html_e54f334d8a1da71c80bfb5ebf01026d2);
+            
+        
+
+        marker_08cee536ce42c8b966c1dfc3470dce4c.bindPopup(popup_be2d8c4db3b33797c97ca0a2dcfb61fb)
+        ;
+
+        
+    
+    
+            marker_08cee536ce42c8b966c1dfc3470dce4c.bindTooltip(
+                `<div>
+                     이디야: 신촌역점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_58838e76c01ece9a2d48e10e46905e88 = L.marker(
+                [37.557665488641206, 126.95713782923599],
+                {}
+            ).addTo(feature_group_d88c5796007ff5e1ae31433d04553e0a);
+        
+    
+            var icon_a1ed98f75b9bddf7b4af0e51fd1e6e96 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_58838e76c01ece9a2d48e10e46905e88.setIcon(icon_a1ed98f75b9bddf7b4af0e51fd1e6e96);
+        
+    
+        var popup_a83ded8a0bc23d1c7bf163c8a6f26841 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ec0df2c3fcbe9edc9edc63d18f1c98d = $(`<div id="html_2ec0df2c3fcbe9edc9edc63d18f1c98d" style="width: 100.0%; height: 100.0%;">이디야: 아현역점</div>`)[0];
+                popup_a83ded8a0bc23d1c7bf163c8a6f26841.setContent(html_2ec0df2c3fcbe9edc9edc63d18f1c98d);
+            
+        
+
+        marker_58838e76c01ece9a2d48e10e46905e88.bindPopup(popup_a83ded8a0bc23d1c7bf163c8a6f26841)
+        ;
+
+        
+    
+    
+            marker_58838e76c01ece9a2d48e10e46905e88.bindTooltip(
+                `<div>
+                     이디야: 아현역점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c05b19e2fb6838fee15f512f0424f6b3 = L.marker(
+                [37.5623685801819, 126.92786217918601],
+                {}
+            ).addTo(feature_group_d88c5796007ff5e1ae31433d04553e0a);
+        
+    
+            var icon_8cd7f4592fab5c39f4e77dd8ac5ecbdb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_c05b19e2fb6838fee15f512f0424f6b3.setIcon(icon_8cd7f4592fab5c39f4e77dd8ac5ecbdb);
+        
+    
+        var popup_49cd24b4f2c028ff31a8faa9d635a17e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d6736fc706280dcca369460f8fb95d37 = $(`<div id="html_d6736fc706280dcca369460f8fb95d37" style="width: 100.0%; height: 100.0%;">이디야: 연남동점</div>`)[0];
+                popup_49cd24b4f2c028ff31a8faa9d635a17e.setContent(html_d6736fc706280dcca369460f8fb95d37);
+            
+        
+
+        marker_c05b19e2fb6838fee15f512f0424f6b3.bindPopup(popup_49cd24b4f2c028ff31a8faa9d635a17e)
+        ;
+
+        
+    
+    
+            marker_c05b19e2fb6838fee15f512f0424f6b3.bindTooltip(
+                `<div>
+                     이디야: 연남동점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_25c929d2b62c968771aae9c65d2b3e65 = L.marker(
+                [37.563674036531, 126.941917689273],
+                {}
+            ).addTo(feature_group_d88c5796007ff5e1ae31433d04553e0a);
+        
+    
+            var icon_9444e42515b4d33d366b4c20ac4dbe73 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_25c929d2b62c968771aae9c65d2b3e65.setIcon(icon_9444e42515b4d33d366b4c20ac4dbe73);
+        
+    
+        var popup_e4e0e7440fde538a5233270b0ef7d561 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5e9328763df9c892f6052194a3a18c9a = $(`<div id="html_5e9328763df9c892f6052194a3a18c9a" style="width: 100.0%; height: 100.0%;">이디야: 연세의료원ABMRC점</div>`)[0];
+                popup_e4e0e7440fde538a5233270b0ef7d561.setContent(html_5e9328763df9c892f6052194a3a18c9a);
+            
+        
+
+        marker_25c929d2b62c968771aae9c65d2b3e65.bindPopup(popup_e4e0e7440fde538a5233270b0ef7d561)
+        ;
+
+        
+    
+    
+            marker_25c929d2b62c968771aae9c65d2b3e65.bindTooltip(
+                `<div>
+                     이디야: 연세의료원ABMRC점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5e0effa79e9c54574e91d95504a2e73f = L.marker(
+                [37.563674036531, 126.941917689273],
+                {}
+            ).addTo(feature_group_d88c5796007ff5e1ae31433d04553e0a);
+        
+    
+            var icon_017816a02c78a9485b04b31922baa196 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_5e0effa79e9c54574e91d95504a2e73f.setIcon(icon_017816a02c78a9485b04b31922baa196);
+        
+    
+        var popup_9885419cfeb563ec1b99abc7513ebbfe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0883a78fad1e0787a3549c8fac7f14f7 = $(`<div id="html_0883a78fad1e0787a3549c8fac7f14f7" style="width: 100.0%; height: 100.0%;">이디야: 연세의료원의과대학점</div>`)[0];
+                popup_9885419cfeb563ec1b99abc7513ebbfe.setContent(html_0883a78fad1e0787a3549c8fac7f14f7);
+            
+        
+
+        marker_5e0effa79e9c54574e91d95504a2e73f.bindPopup(popup_9885419cfeb563ec1b99abc7513ebbfe)
+        ;
+
+        
+    
+    
+            marker_5e0effa79e9c54574e91d95504a2e73f.bindTooltip(
+                `<div>
+                     이디야: 연세의료원의과대학점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0d1e8d7c937c4b0093c13576679ad1db = L.marker(
+                [37.563674036531, 126.941917689273],
+                {}
+            ).addTo(feature_group_d88c5796007ff5e1ae31433d04553e0a);
+        
+    
+            var icon_e312f068675a7469300d732be421d90c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_0d1e8d7c937c4b0093c13576679ad1db.setIcon(icon_e312f068675a7469300d732be421d90c);
+        
+    
+        var popup_7e645143b92a2efba413e4ea52423063 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6cdb6484dc8bf574c11b075230353ab8 = $(`<div id="html_6cdb6484dc8bf574c11b075230353ab8" style="width: 100.0%; height: 100.0%;">이디야: 연세의료원제중관점</div>`)[0];
+                popup_7e645143b92a2efba413e4ea52423063.setContent(html_6cdb6484dc8bf574c11b075230353ab8);
+            
+        
+
+        marker_0d1e8d7c937c4b0093c13576679ad1db.bindPopup(popup_7e645143b92a2efba413e4ea52423063)
+        ;
+
+        
+    
+    
+            marker_0d1e8d7c937c4b0093c13576679ad1db.bindTooltip(
+                `<div>
+                     이디야: 연세의료원제중관점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8c842ebeb91cc358483ff343e02989b7 = L.marker(
+                [37.563674036531, 126.941917689273],
+                {}
+            ).addTo(feature_group_d88c5796007ff5e1ae31433d04553e0a);
+        
+    
+            var icon_25e666f597cad1b25316026dd0b51f68 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_8c842ebeb91cc358483ff343e02989b7.setIcon(icon_25e666f597cad1b25316026dd0b51f68);
+        
+    
+        var popup_6e44cb033890f4192f17f32eb802c314 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f1bc33f564bc82c6c8a42c07305ded83 = $(`<div id="html_f1bc33f564bc82c6c8a42c07305ded83" style="width: 100.0%; height: 100.0%;">이디야: 연세의료원종합관점</div>`)[0];
+                popup_6e44cb033890f4192f17f32eb802c314.setContent(html_f1bc33f564bc82c6c8a42c07305ded83);
+            
+        
+
+        marker_8c842ebeb91cc358483ff343e02989b7.bindPopup(popup_6e44cb033890f4192f17f32eb802c314)
+        ;
+
+        
+    
+    
+            marker_8c842ebeb91cc358483ff343e02989b7.bindTooltip(
+                `<div>
+                     이디야: 연세의료원종합관점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5a7d6c0a098c507dcf70e3b0a38b647c = L.marker(
+                [37.576381440677096, 126.93002514292401],
+                {}
+            ).addTo(feature_group_d88c5796007ff5e1ae31433d04553e0a);
+        
+    
+            var icon_159670c95dd6ec7c816b2b9cc57ccff1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_5a7d6c0a098c507dcf70e3b0a38b647c.setIcon(icon_159670c95dd6ec7c816b2b9cc57ccff1);
+        
+    
+        var popup_bd7945ce45b0f7df27cd1784d4763f2e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6fdfeb99876d4e88f311a2974e4556c7 = $(`<div id="html_6fdfeb99876d4e88f311a2974e4556c7" style="width: 100.0%; height: 100.0%;">이디야: 연희홍연길점</div>`)[0];
+                popup_bd7945ce45b0f7df27cd1784d4763f2e.setContent(html_6fdfeb99876d4e88f311a2974e4556c7);
+            
+        
+
+        marker_5a7d6c0a098c507dcf70e3b0a38b647c.bindPopup(popup_bd7945ce45b0f7df27cd1784d4763f2e)
+        ;
+
+        
+    
+    
+            marker_5a7d6c0a098c507dcf70e3b0a38b647c.bindTooltip(
+                `<div>
+                     이디야: 연희홍연길점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8b5b39463ea0289cd61c824ec3e74ffc = L.marker(
+                [37.594570187466005, 126.941167410528],
+                {}
+            ).addTo(feature_group_d88c5796007ff5e1ae31433d04553e0a);
+        
+    
+            var icon_6e89d247e9b104d84d0de425e788f5b8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "coffee", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_8b5b39463ea0289cd61c824ec3e74ffc.setIcon(icon_6e89d247e9b104d84d0de425e788f5b8);
+        
+    
+        var popup_577fc6dc62a0f395b6f9b44580c83e1d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a98fe96161069eaf053704a3eba3a414 = $(`<div id="html_a98fe96161069eaf053704a3eba3a414" style="width: 100.0%; height: 100.0%;">이디야: 홍은사거리점</div>`)[0];
+                popup_577fc6dc62a0f395b6f9b44580c83e1d.setContent(html_a98fe96161069eaf053704a3eba3a414);
+            
+        
+
+        marker_8b5b39463ea0289cd61c824ec3e74ffc.bindPopup(popup_577fc6dc62a0f395b6f9b44580c83e1d)
+        ;
+
+        
+    
+    
+            marker_8b5b39463ea0289cd61c824ec3e74ffc.bindTooltip(
+                `<div>
+                     이디야: 홍은사거리점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_664b872087a0df08649ca6d02384010d = L.featureGroup(
+                {}
+            ).addTo(map_4acb40f327a3035b3d094dc3b58659df);
+        
+    
+            var marker_aa1d4201cec9ecbea965252aa4057bb5 = L.marker(
+                [37.5828309658005, 126.950359953974],
+                {}
+            ).addTo(feature_group_664b872087a0df08649ca6d02384010d);
+        
+    
+            var icon_baa069bf40f17ca5b2c42895b2f0f70e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "envelope", "iconColor": "yellow", "markerColor": "lightgray", "prefix": "fa"}
+            );
+            marker_aa1d4201cec9ecbea965252aa4057bb5.setIcon(icon_baa069bf40f17ca5b2c42895b2f0f70e);
+        
+    
+        var popup_dba7fa76171c9fbc011653c72b922c89 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c0a6fff3674cfb9f5ea2aa7cd1ed640 = $(`<div id="html_8c0a6fff3674cfb9f5ea2aa7cd1ed640" style="width: 100.0%; height: 100.0%;">메가커피: 무악재역점</div>`)[0];
+                popup_dba7fa76171c9fbc011653c72b922c89.setContent(html_8c0a6fff3674cfb9f5ea2aa7cd1ed640);
+            
+        
+
+        marker_aa1d4201cec9ecbea965252aa4057bb5.bindPopup(popup_dba7fa76171c9fbc011653c72b922c89)
+        ;
+
+        
+    
+    
+            marker_aa1d4201cec9ecbea965252aa4057bb5.bindTooltip(
+                `<div>
+                     메가커피: 무악재역점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_98ed864055eb4a5fbf8550709b8e0883 = L.marker(
+                [37.564742474597395, 126.967332073917],
+                {}
+            ).addTo(feature_group_664b872087a0df08649ca6d02384010d);
+        
+    
+            var icon_9fa2a1ec85d4a01eac78724f2b2a53da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "envelope", "iconColor": "yellow", "markerColor": "lightgray", "prefix": "fa"}
+            );
+            marker_98ed864055eb4a5fbf8550709b8e0883.setIcon(icon_9fa2a1ec85d4a01eac78724f2b2a53da);
+        
+    
+        var popup_ef31f126c3a27c3f3056eff253204055 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd4d43dc0aa68da9425b66953763b758 = $(`<div id="html_bd4d43dc0aa68da9425b66953763b758" style="width: 100.0%; height: 100.0%;">메가커피: 서대문경찰서점</div>`)[0];
+                popup_ef31f126c3a27c3f3056eff253204055.setContent(html_bd4d43dc0aa68da9425b66953763b758);
+            
+        
+
+        marker_98ed864055eb4a5fbf8550709b8e0883.bindPopup(popup_ef31f126c3a27c3f3056eff253204055)
+        ;
+
+        
+    
+    
+            marker_98ed864055eb4a5fbf8550709b8e0883.bindTooltip(
+                `<div>
+                     메가커피: 서대문경찰서점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a304a2739de707da00f00e416a4f44d5 = L.marker(
+                [37.5813094941161, 126.93585323761101],
+                {}
+            ).addTo(feature_group_664b872087a0df08649ca6d02384010d);
+        
+    
+            var icon_d3d374007d6fc914756849450332be31 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "envelope", "iconColor": "yellow", "markerColor": "lightgray", "prefix": "fa"}
+            );
+            marker_a304a2739de707da00f00e416a4f44d5.setIcon(icon_d3d374007d6fc914756849450332be31);
+        
+    
+        var popup_572491f295d1db17e034a04a54705dc4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1db19b0cf074038db67fd053d5de7ed8 = $(`<div id="html_1db19b0cf074038db67fd053d5de7ed8" style="width: 100.0%; height: 100.0%;">메가커피: 서대문구청사거리점</div>`)[0];
+                popup_572491f295d1db17e034a04a54705dc4.setContent(html_1db19b0cf074038db67fd053d5de7ed8);
+            
+        
+
+        marker_a304a2739de707da00f00e416a4f44d5.bindPopup(popup_572491f295d1db17e034a04a54705dc4)
+        ;
+
+        
+    
+    
+            marker_a304a2739de707da00f00e416a4f44d5.bindTooltip(
+                `<div>
+                     메가커피: 서대문구청사거리점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c761995eb2d7b6553d526910279f3730 = L.marker(
+                [37.567319160261, 126.964881715041],
+                {}
+            ).addTo(feature_group_664b872087a0df08649ca6d02384010d);
+        
+    
+            var icon_d5db23a224faf297ba099d51cc8d6c67 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "envelope", "iconColor": "yellow", "markerColor": "lightgray", "prefix": "fa"}
+            );
+            marker_c761995eb2d7b6553d526910279f3730.setIcon(icon_d5db23a224faf297ba099d51cc8d6c67);
+        
+    
+        var popup_f76eb54f072fc11eae80f0cdc9177d6b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f55f7c10485ee246fde160d4e606aa7 = $(`<div id="html_7f55f7c10485ee246fde160d4e606aa7" style="width: 100.0%; height: 100.0%;">메가커피: 서대문역점</div>`)[0];
+                popup_f76eb54f072fc11eae80f0cdc9177d6b.setContent(html_7f55f7c10485ee246fde160d4e606aa7);
+            
+        
+
+        marker_c761995eb2d7b6553d526910279f3730.bindPopup(popup_f76eb54f072fc11eae80f0cdc9177d6b)
+        ;
+
+        
+    
+    
+            marker_c761995eb2d7b6553d526910279f3730.bindTooltip(
+                `<div>
+                     메가커피: 서대문역점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1ff988018c521058e9e2f837d9fa7378 = L.marker(
+                [37.5738767528213, 126.91967217882299],
+                {}
+            ).addTo(feature_group_664b872087a0df08649ca6d02384010d);
+        
+    
+            var icon_4cf6ba82ef6c8943386e6b2d8ad6764b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "envelope", "iconColor": "yellow", "markerColor": "lightgray", "prefix": "fa"}
+            );
+            marker_1ff988018c521058e9e2f837d9fa7378.setIcon(icon_4cf6ba82ef6c8943386e6b2d8ad6764b);
+        
+    
+        var popup_7f746d569480129b97179d3984aa1c61 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2369e69c45aefe477b0f07988af2ffd5 = $(`<div id="html_2369e69c45aefe477b0f07988af2ffd5" style="width: 100.0%; height: 100.0%;">메가커피: 서울가재울초점</div>`)[0];
+                popup_7f746d569480129b97179d3984aa1c61.setContent(html_2369e69c45aefe477b0f07988af2ffd5);
+            
+        
+
+        marker_1ff988018c521058e9e2f837d9fa7378.bindPopup(popup_7f746d569480129b97179d3984aa1c61)
+        ;
+
+        
+    
+    
+            marker_1ff988018c521058e9e2f837d9fa7378.bindTooltip(
+                `<div>
+                     메가커피: 서울가재울초점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b18f49892f93d4a914dd36749c0049d1 = L.marker(
+                [37.5819315923182, 126.92680525370501],
+                {}
+            ).addTo(feature_group_664b872087a0df08649ca6d02384010d);
+        
+    
+            var icon_e21d1d16f66b9e08e5717adacf96dc95 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "envelope", "iconColor": "yellow", "markerColor": "lightgray", "prefix": "fa"}
+            );
+            marker_b18f49892f93d4a914dd36749c0049d1.setIcon(icon_e21d1d16f66b9e08e5717adacf96dc95);
+        
+    
+        var popup_f70bfa5a4ea9584d8b11a2c6e2d21122 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_96d8e24ec94d20fbf74704ae1851cc2d = $(`<div id="html_96d8e24ec94d20fbf74704ae1851cc2d" style="width: 100.0%; height: 100.0%;">메가커피: 서울명지초점</div>`)[0];
+                popup_f70bfa5a4ea9584d8b11a2c6e2d21122.setContent(html_96d8e24ec94d20fbf74704ae1851cc2d);
+            
+        
+
+        marker_b18f49892f93d4a914dd36749c0049d1.bindPopup(popup_f70bfa5a4ea9584d8b11a2c6e2d21122)
+        ;
+
+        
+    
+    
+            marker_b18f49892f93d4a914dd36749c0049d1.bindTooltip(
+                `<div>
+                     메가커피: 서울명지초점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_959413b0dc4ef2d9f95a4f84114d96cf = L.marker(
+                [37.558725212646706, 126.94244984720501],
+                {}
+            ).addTo(feature_group_664b872087a0df08649ca6d02384010d);
+        
+    
+            var icon_875f61a1c827ce598fff85331f17dce8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "envelope", "iconColor": "yellow", "markerColor": "lightgray", "prefix": "fa"}
+            );
+            marker_959413b0dc4ef2d9f95a4f84114d96cf.setIcon(icon_875f61a1c827ce598fff85331f17dce8);
+        
+    
+        var popup_a9df233ffd03693ff800bae67db040d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03eeb9f4d26574f70d14dd1223608ac2 = $(`<div id="html_03eeb9f4d26574f70d14dd1223608ac2" style="width: 100.0%; height: 100.0%;">메가커피: 신촌기차역점</div>`)[0];
+                popup_a9df233ffd03693ff800bae67db040d8.setContent(html_03eeb9f4d26574f70d14dd1223608ac2);
+            
+        
+
+        marker_959413b0dc4ef2d9f95a4f84114d96cf.bindPopup(popup_a9df233ffd03693ff800bae67db040d8)
+        ;
+
+        
+    
+    
+            marker_959413b0dc4ef2d9f95a4f84114d96cf.bindTooltip(
+                `<div>
+                     메가커피: 신촌기차역점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e240b4a16c2a40418699a691a21ea0f5 = L.marker(
+                [37.5560882413034, 126.934944004562],
+                {}
+            ).addTo(feature_group_664b872087a0df08649ca6d02384010d);
+        
+    
+            var icon_b1e506fd64dbb0ff96d4b962c1603b3b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "envelope", "iconColor": "yellow", "markerColor": "lightgray", "prefix": "fa"}
+            );
+            marker_e240b4a16c2a40418699a691a21ea0f5.setIcon(icon_b1e506fd64dbb0ff96d4b962c1603b3b);
+        
+    
+        var popup_cebf15c2f82123fc4afef04947f8ef54 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d609d7f96ef2f2a28b3e1ab99eedb21f = $(`<div id="html_d609d7f96ef2f2a28b3e1ab99eedb21f" style="width: 100.0%; height: 100.0%;">메가커피: 신촌로터리점</div>`)[0];
+                popup_cebf15c2f82123fc4afef04947f8ef54.setContent(html_d609d7f96ef2f2a28b3e1ab99eedb21f);
+            
+        
+
+        marker_e240b4a16c2a40418699a691a21ea0f5.bindPopup(popup_cebf15c2f82123fc4afef04947f8ef54)
+        ;
+
+        
+    
+    
+            marker_e240b4a16c2a40418699a691a21ea0f5.bindTooltip(
+                `<div>
+                     메가커피: 신촌로터리점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_41ad2ff28288afc3ba375dc5594d11f5 = L.marker(
+                [37.556205796514604, 126.93929591413799],
+                {}
+            ).addTo(feature_group_664b872087a0df08649ca6d02384010d);
+        
+    
+            var icon_49bdeb8e1e012ffdd990752887a9b2f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "envelope", "iconColor": "yellow", "markerColor": "lightgray", "prefix": "fa"}
+            );
+            marker_41ad2ff28288afc3ba375dc5594d11f5.setIcon(icon_49bdeb8e1e012ffdd990752887a9b2f4);
+        
+    
+        var popup_36f5d69500baa807e133a4b499ff6fd4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86b0e437823b6194fa47b231fb07d2cd = $(`<div id="html_86b0e437823b6194fa47b231fb07d2cd" style="width: 100.0%; height: 100.0%;">메가커피: 신촌역점</div>`)[0];
+                popup_36f5d69500baa807e133a4b499ff6fd4.setContent(html_86b0e437823b6194fa47b231fb07d2cd);
+            
+        
+
+        marker_41ad2ff28288afc3ba375dc5594d11f5.bindPopup(popup_36f5d69500baa807e133a4b499ff6fd4)
+        ;
+
+        
+    
+    
+            marker_41ad2ff28288afc3ba375dc5594d11f5.bindTooltip(
+                `<div>
+                     메가커피: 신촌역점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bd1599ab103227ae9c93e92357531b9b = L.marker(
+                [37.558621696785, 126.955860405605],
+                {}
+            ).addTo(feature_group_664b872087a0df08649ca6d02384010d);
+        
+    
+            var icon_c742067ca271036aea89ea1abae37a1c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "envelope", "iconColor": "yellow", "markerColor": "lightgray", "prefix": "fa"}
+            );
+            marker_bd1599ab103227ae9c93e92357531b9b.setIcon(icon_c742067ca271036aea89ea1abae37a1c);
+        
+    
+        var popup_343665ff57c8955e82d89bc286c5dbc4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14f3a3f2521678a85a44ea5dbf65843e = $(`<div id="html_14f3a3f2521678a85a44ea5dbf65843e" style="width: 100.0%; height: 100.0%;">메가커피: 아현역점</div>`)[0];
+                popup_343665ff57c8955e82d89bc286c5dbc4.setContent(html_14f3a3f2521678a85a44ea5dbf65843e);
+            
+        
+
+        marker_bd1599ab103227ae9c93e92357531b9b.bindPopup(popup_343665ff57c8955e82d89bc286c5dbc4)
+        ;
+
+        
+    
+    
+            marker_bd1599ab103227ae9c93e92357531b9b.bindTooltip(
+                `<div>
+                     메가커피: 아현역점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_49a9ea448e77b163f5057687d5a6fd81 = L.marker(
+                [37.563927497387, 126.93372598308399],
+                {}
+            ).addTo(feature_group_664b872087a0df08649ca6d02384010d);
+        
+    
+            var icon_5fc83c3f56ff39e1067e3bf4cfdf3ee9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "envelope", "iconColor": "yellow", "markerColor": "lightgray", "prefix": "fa"}
+            );
+            marker_49a9ea448e77b163f5057687d5a6fd81.setIcon(icon_5fc83c3f56ff39e1067e3bf4cfdf3ee9);
+        
+    
+        var popup_bb8e9c869a8d950437bdcfce034ebcbc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c39788cf6fec5e7d74dd554c77d2dc0 = $(`<div id="html_8c39788cf6fec5e7d74dd554c77d2dc0" style="width: 100.0%; height: 100.0%;">메가커피: 연대서문점</div>`)[0];
+                popup_bb8e9c869a8d950437bdcfce034ebcbc.setContent(html_8c39788cf6fec5e7d74dd554c77d2dc0);
+            
+        
+
+        marker_49a9ea448e77b163f5057687d5a6fd81.bindPopup(popup_bb8e9c869a8d950437bdcfce034ebcbc)
+        ;
+
+        
+    
+    
+            marker_49a9ea448e77b163f5057687d5a6fd81.bindTooltip(
+                `<div>
+                     메가커피: 연대서문점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9b17d93166838d4172a72c4c2f288779 = L.marker(
+                [37.561643113348396, 126.96269169050899],
+                {}
+            ).addTo(feature_group_664b872087a0df08649ca6d02384010d);
+        
+    
+            var icon_a7bc584958e241fba41f42fa4f2167ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "envelope", "iconColor": "yellow", "markerColor": "lightgray", "prefix": "fa"}
+            );
+            marker_9b17d93166838d4172a72c4c2f288779.setIcon(icon_a7bc584958e241fba41f42fa4f2167ed);
+        
+    
+        var popup_445deec5921d8a9d9e56f21a4840e26a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_da66dcff2c6200240453ab005d1bdfa1 = $(`<div id="html_da66dcff2c6200240453ab005d1bdfa1" style="width: 100.0%; height: 100.0%;">메가커피: 충정동아점</div>`)[0];
+                popup_445deec5921d8a9d9e56f21a4840e26a.setContent(html_da66dcff2c6200240453ab005d1bdfa1);
+            
+        
+
+        marker_9b17d93166838d4172a72c4c2f288779.bindPopup(popup_445deec5921d8a9d9e56f21a4840e26a)
+        ;
+
+        
+    
+    
+            marker_9b17d93166838d4172a72c4c2f288779.bindTooltip(
+                `<div>
+                     메가커피: 충정동아점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_42202aea2d94210238ea401cb3a7d2fe = L.marker(
+                [37.5934132582275, 126.94159893810499],
+                {}
+            ).addTo(feature_group_664b872087a0df08649ca6d02384010d);
+        
+    
+            var icon_2fa522e0680eae2833159f5579e909db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "envelope", "iconColor": "yellow", "markerColor": "lightgray", "prefix": "fa"}
+            );
+            marker_42202aea2d94210238ea401cb3a7d2fe.setIcon(icon_2fa522e0680eae2833159f5579e909db);
+        
+    
+        var popup_f16d4dd9110d76ce053514ca9daf665b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea7af7ed79830efad1ca70e0f255cf2e = $(`<div id="html_ea7af7ed79830efad1ca70e0f255cf2e" style="width: 100.0%; height: 100.0%;">메가커피: 홍은사거리점</div>`)[0];
+                popup_f16d4dd9110d76ce053514ca9daf665b.setContent(html_ea7af7ed79830efad1ca70e0f255cf2e);
+            
+        
+
+        marker_42202aea2d94210238ea401cb3a7d2fe.bindPopup(popup_f16d4dd9110d76ce053514ca9daf665b)
+        ;
+
+        
+    
+    
+            marker_42202aea2d94210238ea401cb3a7d2fe.bindTooltip(
+                `<div>
+                     메가커피: 홍은사거리점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_be0e8898c3731013b073046cb0d395a0 = L.marker(
+                [37.5846122547491, 126.948319611052],
+                {}
+            ).addTo(feature_group_664b872087a0df08649ca6d02384010d);
+        
+    
+            var icon_73c1650a41ebfc98fd3bda3e2d7f3bf3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "envelope", "iconColor": "yellow", "markerColor": "lightgray", "prefix": "fa"}
+            );
+            marker_be0e8898c3731013b073046cb0d395a0.setIcon(icon_73c1650a41ebfc98fd3bda3e2d7f3bf3);
+        
+    
+        var popup_906f49aaf04360881015ec33a2a7a381 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f0cd18c49a52badad2e0e344d4f027f = $(`<div id="html_6f0cd18c49a52badad2e0e344d4f027f" style="width: 100.0%; height: 100.0%;">메가커피: 홍제인왕사거리점</div>`)[0];
+                popup_906f49aaf04360881015ec33a2a7a381.setContent(html_6f0cd18c49a52badad2e0e344d4f027f);
+            
+        
+
+        marker_be0e8898c3731013b073046cb0d395a0.bindPopup(popup_906f49aaf04360881015ec33a2a7a381)
+        ;
+
+        
+    
+    
+            marker_be0e8898c3731013b073046cb0d395a0.bindTooltip(
+                `<div>
+                     메가커피: 홍제인왕사거리점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6c928504499c149659405d19b3adf855 = L.marker(
+                [37.5744019902031, 126.91790781416701],
+                {}
+            ).addTo(feature_group_664b872087a0df08649ca6d02384010d);
+        
+    
+            var icon_c60f0c429380a649622c488920a5489d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "envelope", "iconColor": "yellow", "markerColor": "lightgray", "prefix": "fa"}
+            );
+            marker_6c928504499c149659405d19b3adf855.setIcon(icon_c60f0c429380a649622c488920a5489d);
+        
+    
+        var popup_46a607fe842cc0227efaf11be4acf495 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_30e91e2cf1f3520e2b71cd10c4eb7f31 = $(`<div id="html_30e91e2cf1f3520e2b71cd10c4eb7f31" style="width: 100.0%; height: 100.0%;">메가커피: 가재울뉴타운점</div>`)[0];
+                popup_46a607fe842cc0227efaf11be4acf495.setContent(html_30e91e2cf1f3520e2b71cd10c4eb7f31);
+            
+        
+
+        marker_6c928504499c149659405d19b3adf855.bindPopup(popup_46a607fe842cc0227efaf11be4acf495)
+        ;
+
+        
+    
+    
+            marker_6c928504499c149659405d19b3adf855.bindTooltip(
+                `<div>
+                     메가커피: 가재울뉴타운점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fca6ecadac096182ea09007b056b31d0 = L.marker(
+                [37.5775870487471, 126.910409912481],
+                {}
+            ).addTo(feature_group_664b872087a0df08649ca6d02384010d);
+        
+    
+            var icon_2e1cff5e71d749b85316f0bac106f4b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "envelope", "iconColor": "yellow", "markerColor": "lightgray", "prefix": "fa"}
+            );
+            marker_fca6ecadac096182ea09007b056b31d0.setIcon(icon_2e1cff5e71d749b85316f0bac106f4b2);
+        
+    
+        var popup_69d4794cdc55d497c32190367e6f6b8d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f96472547b7f6b44eea1b311d6185e5 = $(`<div id="html_7f96472547b7f6b44eea1b311d6185e5" style="width: 100.0%; height: 100.0%;">메가커피: 가재울북가좌초교점</div>`)[0];
+                popup_69d4794cdc55d497c32190367e6f6b8d.setContent(html_7f96472547b7f6b44eea1b311d6185e5);
+            
+        
+
+        marker_fca6ecadac096182ea09007b056b31d0.bindPopup(popup_69d4794cdc55d497c32190367e6f6b8d)
+        ;
+
+        
+    
+    
+            marker_fca6ecadac096182ea09007b056b31d0.bindTooltip(
+                `<div>
+                     메가커피: 가재울북가좌초교점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_93522dc3d3e3222fc1f597457820d0d4 = L.marker(
+                [37.569590829251794, 126.91494026181101],
+                {}
+            ).addTo(feature_group_664b872087a0df08649ca6d02384010d);
+        
+    
+            var icon_089afa1f9ceb723dede747ac46108b53 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "envelope", "iconColor": "yellow", "markerColor": "lightgray", "prefix": "fa"}
+            );
+            marker_93522dc3d3e3222fc1f597457820d0d4.setIcon(icon_089afa1f9ceb723dede747ac46108b53);
+        
+    
+        var popup_719da223968fc202b27c9445b9cb73d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e02dbb4ef0f53eea5b0342f094178cb2 = $(`<div id="html_e02dbb4ef0f53eea5b0342f094178cb2" style="width: 100.0%; height: 100.0%;">메가커피: 가좌역점</div>`)[0];
+                popup_719da223968fc202b27c9445b9cb73d5.setContent(html_e02dbb4ef0f53eea5b0342f094178cb2);
+            
+        
+
+        marker_93522dc3d3e3222fc1f597457820d0d4.bindPopup(popup_719da223968fc202b27c9445b9cb73d5)
+        ;
+
+        
+    
+    
+            marker_93522dc3d3e3222fc1f597457820d0d4.bindTooltip(
+                `<div>
+                     메가커피: 가좌역점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e5d8c53defb51a9856462dbbed5d9f2d = L.marker(
+                [37.5780547612815, 126.92101916232001],
+                {}
+            ).addTo(feature_group_664b872087a0df08649ca6d02384010d);
+        
+    
+            var icon_b8f0877a3dc8ba4564cd0b1194e8f65e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "envelope", "iconColor": "yellow", "markerColor": "lightgray", "prefix": "fa"}
+            );
+            marker_e5d8c53defb51a9856462dbbed5d9f2d.setIcon(icon_b8f0877a3dc8ba4564cd0b1194e8f65e);
+        
+    
+        var popup_820ed9200e488c69ebe208d8d9f4dfa2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c92a3dccfd178cb2e2cca81a6422eba1 = $(`<div id="html_c92a3dccfd178cb2e2cca81a6422eba1" style="width: 100.0%; height: 100.0%;">메가커피: 명지대점</div>`)[0];
+                popup_820ed9200e488c69ebe208d8d9f4dfa2.setContent(html_c92a3dccfd178cb2e2cca81a6422eba1);
+            
+        
+
+        marker_e5d8c53defb51a9856462dbbed5d9f2d.bindPopup(popup_820ed9200e488c69ebe208d8d9f4dfa2)
+        ;
+
+        
+    
+    
+            marker_e5d8c53defb51a9856462dbbed5d9f2d.bindTooltip(
+                `<div>
+                     메가커피: 명지대점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a5bc9101c47aafb4149b8853e094ff2a = L.marker(
+                [37.585040907282796, 126.923795702201],
+                {}
+            ).addTo(feature_group_664b872087a0df08649ca6d02384010d);
+        
+    
+            var icon_131d21edde34e43a702375241b924ed2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "envelope", "iconColor": "yellow", "markerColor": "lightgray", "prefix": "fa"}
+            );
+            marker_a5bc9101c47aafb4149b8853e094ff2a.setIcon(icon_131d21edde34e43a702375241b924ed2);
+        
+    
+        var popup_7b3cdefc49d54c8c1a66e2219e6f75b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d8c7be52a559892de54323f928d227c = $(`<div id="html_1d8c7be52a559892de54323f928d227c" style="width: 100.0%; height: 100.0%;">메가커피: 명지전문대점</div>`)[0];
+                popup_7b3cdefc49d54c8c1a66e2219e6f75b1.setContent(html_1d8c7be52a559892de54323f928d227c);
+            
+        
+
+        marker_a5bc9101c47aafb4149b8853e094ff2a.bindPopup(popup_7b3cdefc49d54c8c1a66e2219e6f75b1)
+        ;
+
+        
+    
+    
+            marker_a5bc9101c47aafb4149b8853e094ff2a.bindTooltip(
+                `<div>
+                     메가커피: 명지전문대점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_12bce470d67e4a2749aedfcab312afe5 = L.marker(
+                [37.5821304189353, 126.913332740803],
+                {}
+            ).addTo(feature_group_664b872087a0df08649ca6d02384010d);
+        
+    
+            var icon_74f741c3cadf4190c2a31f7181c2e10e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "envelope", "iconColor": "yellow", "markerColor": "lightgray", "prefix": "fa"}
+            );
+            marker_12bce470d67e4a2749aedfcab312afe5.setIcon(icon_74f741c3cadf4190c2a31f7181c2e10e);
+        
+    
+        var popup_f6923b76a2190cef43264898e12b2e50 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34b938b33352ed9ed0a1eac7f0bc4204 = $(`<div id="html_34b938b33352ed9ed0a1eac7f0bc4204" style="width: 100.0%; height: 100.0%;">메가커피: 북가좌점</div>`)[0];
+                popup_f6923b76a2190cef43264898e12b2e50.setContent(html_34b938b33352ed9ed0a1eac7f0bc4204);
+            
+        
+
+        marker_12bce470d67e4a2749aedfcab312afe5.bindPopup(popup_f6923b76a2190cef43264898e12b2e50)
+        ;
+
+        
+    
+    
+            marker_12bce470d67e4a2749aedfcab312afe5.bindTooltip(
+                `<div>
+                     메가커피: 북가좌점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d6d445e10c916ac55d82e950ee3491f5 = L.marker(
+                [37.557505152443, 126.936437946856],
+                {}
+            ).addTo(feature_group_664b872087a0df08649ca6d02384010d);
+        
+    
+            var icon_e9c010c91dbbb239f2ec2fcb151e7b85 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "envelope", "iconColor": "yellow", "markerColor": "lightgray", "prefix": "fa"}
+            );
+            marker_d6d445e10c916ac55d82e950ee3491f5.setIcon(icon_e9c010c91dbbb239f2ec2fcb151e7b85);
+        
+    
+        var popup_b39626953321c0ee5fbf06324a63189a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a96f2bc138845af7293644c15c1ae0b8 = $(`<div id="html_a96f2bc138845af7293644c15c1ae0b8" style="width: 100.0%; height: 100.0%;">메가커피: 신촌점</div>`)[0];
+                popup_b39626953321c0ee5fbf06324a63189a.setContent(html_a96f2bc138845af7293644c15c1ae0b8);
+            
+        
+
+        marker_d6d445e10c916ac55d82e950ee3491f5.bindPopup(popup_b39626953321c0ee5fbf06324a63189a)
+        ;
+
+        
+    
+    
+            marker_d6d445e10c916ac55d82e950ee3491f5.bindTooltip(
+                `<div>
+                     메가커피: 신촌점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ddad5c1cfd1c82e6ec74e0b625383417 = L.marker(
+                [37.5660508394158, 126.943916239886],
+                {}
+            ).addTo(feature_group_664b872087a0df08649ca6d02384010d);
+        
+    
+            var icon_9bef8557d1884b1ba2bf427c9829ab7f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "envelope", "iconColor": "yellow", "markerColor": "lightgray", "prefix": "fa"}
+            );
+            marker_ddad5c1cfd1c82e6ec74e0b625383417.setIcon(icon_9bef8557d1884b1ba2bf427c9829ab7f);
+        
+    
+        var popup_c34b0a05eddcdce7f455c7a265e709e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_095eeb7e157d54b1affa91669fce6f1b = $(`<div id="html_095eeb7e157d54b1affa91669fce6f1b" style="width: 100.0%; height: 100.0%;">메가커피: 연세대공학원점</div>`)[0];
+                popup_c34b0a05eddcdce7f455c7a265e709e2.setContent(html_095eeb7e157d54b1affa91669fce6f1b);
+            
+        
+
+        marker_ddad5c1cfd1c82e6ec74e0b625383417.bindPopup(popup_c34b0a05eddcdce7f455c7a265e709e2)
+        ;
+
+        
+    
+    
+            marker_ddad5c1cfd1c82e6ec74e0b625383417.bindTooltip(
+                `<div>
+                     메가커피: 연세대공학원점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a3c419b901dfb3a0d3a9f50b297ad30d = L.marker(
+                [37.5666191929416, 126.931000128114],
+                {}
+            ).addTo(feature_group_664b872087a0df08649ca6d02384010d);
+        
+    
+            var icon_29fe2d0af378b7787e6d5de1ef3ee795 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "envelope", "iconColor": "yellow", "markerColor": "lightgray", "prefix": "fa"}
+            );
+            marker_a3c419b901dfb3a0d3a9f50b297ad30d.setIcon(icon_29fe2d0af378b7787e6d5de1ef3ee795);
+        
+    
+        var popup_2bf8ff0e03e4dec29e4bca280b379808 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e885e8f99fb191703062b2a2a1021289 = $(`<div id="html_e885e8f99fb191703062b2a2a1021289" style="width: 100.0%; height: 100.0%;">메가커피: 연희점</div>`)[0];
+                popup_2bf8ff0e03e4dec29e4bca280b379808.setContent(html_e885e8f99fb191703062b2a2a1021289);
+            
+        
+
+        marker_a3c419b901dfb3a0d3a9f50b297ad30d.bindPopup(popup_2bf8ff0e03e4dec29e4bca280b379808)
+        ;
+
+        
+    
+    
+            marker_a3c419b901dfb3a0d3a9f50b297ad30d.bindTooltip(
+                `<div>
+                     메가커피: 연희점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dee792c74ceef44578750765d9f31c2b = L.marker(
+                [37.5578996695458, 126.945967798608],
+                {}
+            ).addTo(feature_group_664b872087a0df08649ca6d02384010d);
+        
+    
+            var icon_a5cab59944d2d64a7647dfa63eec1ed5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "envelope", "iconColor": "yellow", "markerColor": "lightgray", "prefix": "fa"}
+            );
+            marker_dee792c74ceef44578750765d9f31c2b.setIcon(icon_a5cab59944d2d64a7647dfa63eec1ed5);
+        
+    
+        var popup_3a8142c73f43c235a8ef6ceae51ec2e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_783a81bd89696f55773e16e5e0ee5ef4 = $(`<div id="html_783a81bd89696f55773e16e5e0ee5ef4" style="width: 100.0%; height: 100.0%;">메가커피: 이대점</div>`)[0];
+                popup_3a8142c73f43c235a8ef6ceae51ec2e6.setContent(html_783a81bd89696f55773e16e5e0ee5ef4);
+            
+        
+
+        marker_dee792c74ceef44578750765d9f31c2b.bindPopup(popup_3a8142c73f43c235a8ef6ceae51ec2e6)
+        ;
+
+        
+    
+    
+            marker_dee792c74ceef44578750765d9f31c2b.bindTooltip(
+                `<div>
+                     메가커피: 이대점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_328b2d18c9a0ccaa53d063817715ce81 = L.marker(
+                [37.5581628005472, 126.92917343341601],
+                {}
+            ).addTo(feature_group_664b872087a0df08649ca6d02384010d);
+        
+    
+            var icon_2ddb62053595551690dea43788cfbb6e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "envelope", "iconColor": "yellow", "markerColor": "lightgray", "prefix": "fa"}
+            );
+            marker_328b2d18c9a0ccaa53d063817715ce81.setIcon(icon_2ddb62053595551690dea43788cfbb6e);
+        
+    
+        var popup_154b7aaa453e0f2a07c0d13d9e1ebfa8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b9f6754a93c6df94b8ae2a2ab26cf8f7 = $(`<div id="html_b9f6754a93c6df94b8ae2a2ab26cf8f7" style="width: 100.0%; height: 100.0%;">메가커피: 창천점</div>`)[0];
+                popup_154b7aaa453e0f2a07c0d13d9e1ebfa8.setContent(html_b9f6754a93c6df94b8ae2a2ab26cf8f7);
+            
+        
+
+        marker_328b2d18c9a0ccaa53d063817715ce81.bindPopup(popup_154b7aaa453e0f2a07c0d13d9e1ebfa8)
+        ;
+
+        
+    
+    
+            marker_328b2d18c9a0ccaa53d063817715ce81.bindTooltip(
+                `<div>
+                     메가커피: 창천점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_728cc636339f0bd8f5748efb6a98f9a8 = L.marker(
+                [37.5997170705014, 126.94842568927],
+                {}
+            ).addTo(feature_group_664b872087a0df08649ca6d02384010d);
+        
+    
+            var icon_9420d7feef66c3faf725ee4c4a421e3a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "envelope", "iconColor": "yellow", "markerColor": "lightgray", "prefix": "fa"}
+            );
+            marker_728cc636339f0bd8f5748efb6a98f9a8.setIcon(icon_9420d7feef66c3faf725ee4c4a421e3a);
+        
+    
+        var popup_846f774f7032bc1f8b6f14c1d9d99941 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0066d7fe60fc12db9c3b05fa75e414d5 = $(`<div id="html_0066d7fe60fc12db9c3b05fa75e414d5" style="width: 100.0%; height: 100.0%;">메가커피: 포방터시장점</div>`)[0];
+                popup_846f774f7032bc1f8b6f14c1d9d99941.setContent(html_0066d7fe60fc12db9c3b05fa75e414d5);
+            
+        
+
+        marker_728cc636339f0bd8f5748efb6a98f9a8.bindPopup(popup_846f774f7032bc1f8b6f14c1d9d99941)
+        ;
+
+        
+    
+    
+            marker_728cc636339f0bd8f5748efb6a98f9a8.bindTooltip(
+                `<div>
+                     메가커피: 포방터시장점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_96c97fb0b748073d304afa51808d2f76 = L.marker(
+                [37.5882529240035, 126.945379523276],
+                {}
+            ).addTo(feature_group_664b872087a0df08649ca6d02384010d);
+        
+    
+            var icon_09676d79ddf7de3ba033cdedf5fff353 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "envelope", "iconColor": "yellow", "markerColor": "lightgray", "prefix": "fa"}
+            );
+            marker_96c97fb0b748073d304afa51808d2f76.setIcon(icon_09676d79ddf7de3ba033cdedf5fff353);
+        
+    
+        var popup_8961f6329841d013965f452c6fea57b8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_89a4f44ad37827bf11032eff133243da = $(`<div id="html_89a4f44ad37827bf11032eff133243da" style="width: 100.0%; height: 100.0%;">메가커피: 홍제역점</div>`)[0];
+                popup_8961f6329841d013965f452c6fea57b8.setContent(html_89a4f44ad37827bf11032eff133243da);
+            
+        
+
+        marker_96c97fb0b748073d304afa51808d2f76.bindPopup(popup_8961f6329841d013965f452c6fea57b8)
+        ;
+
+        
+    
+    
+            marker_96c97fb0b748073d304afa51808d2f76.bindTooltip(
+                `<div>
+                     메가커피: 홍제역점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a086e66d6e5aba9d09b35b55c9fa013f = L.marker(
+                [37.5944153294494, 126.946318358034],
+                {}
+            ).addTo(feature_group_664b872087a0df08649ca6d02384010d);
+        
+    
+            var icon_ee133477bbaba77ba150f35dfb763e92 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "envelope", "iconColor": "yellow", "markerColor": "lightgray", "prefix": "fa"}
+            );
+            marker_a086e66d6e5aba9d09b35b55c9fa013f.setIcon(icon_ee133477bbaba77ba150f35dfb763e92);
+        
+    
+        var popup_7ce7249d92f615f2663cc5a683dd30a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee647a1633fa2747245aea96bedec2ec = $(`<div id="html_ee647a1633fa2747245aea96bedec2ec" style="width: 100.0%; height: 100.0%;">메가커피: 홍제홍은벽산점</div>`)[0];
+                popup_7ce7249d92f615f2663cc5a683dd30a2.setContent(html_ee647a1633fa2747245aea96bedec2ec);
+            
+        
+
+        marker_a086e66d6e5aba9d09b35b55c9fa013f.bindPopup(popup_7ce7249d92f615f2663cc5a683dd30a2)
+        ;
+
+        
+    
+    
+            marker_a086e66d6e5aba9d09b35b55c9fa013f.bindTooltip(
+                `<div>
+                     메가커피: 홍제홍은벽산점
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var layer_control_e4f4c32ea5c270964bd94e089cf669eb = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_8400b981a0d14306f689c2b8e118d556,
+                },
+                overlays :  {
+                    "\uc2a4\ud0c0\ubc85\uc2a4" : feature_group_8f4246f207854241232697ed345cfcb5,
+                    "\uc774\ub514\uc57c" : feature_group_d88c5796007ff5e1ae31433d04553e0a,
+                    "\uba54\uac00\ucee4\ud53c" : feature_group_664b872087a0df08649ca6d02384010d,
+                },
+            };
+            L.control.layers(
+                layer_control_e4f4c32ea5c270964bd94e089cf669eb.base_layers,
+                layer_control_e4f4c32ea5c270964bd94e089cf669eb.overlays,
+                {"autoZIndex": true, "collapsed": false, "position": "topright"}
+            ).addTo(map_4acb40f327a3035b3d094dc3b58659df);
+        
+</script>
